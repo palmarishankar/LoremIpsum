@@ -1,0 +1,227 @@
+*{
+    box-sizing: content-box;
+}
+.big-conatainer{
+    background-color: rgba(219, 219, 220, 0.748);
+}
+
+.logo{
+    display: flex;
+    flex-direction: column;
+    height:32px;
+    width:35px;
+}
+
+
+.head-container{
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+   justify-content: space-between; 
+
+}
+
+
+.list-item{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row; 
+    font-size: 20px;
+    font-family: bold;
+    margin-left:20px;
+    padding-left:20px;
+    
+    
+
+
+}
+@media screen and (min-width:576px){
+    .item{
+        font-size: 10px;
+    }
+}
+
+.item{
+    padding-left:8px;
+    margin-left:8px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight:bold ;
+    color:black;
+    
+}
+
+.social-icon{
+    width:25px;
+    height:30px;
+    text-decoration: none;
+    padding:10px;
+    
+}
+.social-media{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    align-self: self-end;
+  
+}
+
+.navbar-links{
+    display: flex;
+    flex-direction: row;
+    font-family: bold;
+}
+
+.hero-image{
+    background-image: url("https://i.ibb.co/r5cTs6M/heroimg.jpg");
+    height:115vh;
+   width:100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+  padding-top:150px;
+  display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    
+  
+}
+
+.button{
+    background-image:linear-gradient(to left,rgba(12, 10, 10, 0.137),rgba(55, 49, 49, 0.074),rgb(45, 43, 43));
+   height:35px;
+   width:250px;
+   margin-bottom: 30px;
+   margin-left:20px;
+
+    
+}
+.container{
+    background-color: silver;
+    
+    display: flex;
+    flex-direction: row;
+    
+    font-size: 13px;
+    padding-left:20px;
+    
+    font-family:Bahnschrift Condensed;
+    text-align: center;
+    
+
+}
+
+.para{
+    padding-left:10px;
+}
+
+.image{
+    height:200px;
+    width:290px;
+}
+.card-container{
+    margin:10px;
+}
+.heading{
+    margin:20px;
+    font-weight:bold;
+    font-family:Bahnschrift Condensed;
+
+
+}
+.image-containers{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   
+}
+
+.rooms{
+    font-size: 18px;
+    font-weight: bold;
+    font-family:Bahnschrift Condensed;
+
+
+}
+
+.dining{
+    font-size: 18px;
+    font-weight: bold;
+    font-family:Bahnschrift Condensed;
+    text-align:center;
+
+
+}
+
+.pools{
+    font-size: 16px;
+    font-weight: bold;
+    font-family:Bahnschrift Condensed;
+    text-align:end;
+    padding-left:25px;
+
+
+}
+
+.room-des{
+       font-family:Bahnschrift Condensed;
+   
+    padding-left:10px;
+}
+
+.dining-des{
+   text-align: center;
+    padding-left:10px;
+    font-family:Bahnschrift Condensed;
+
+}
+
+.pools-des{
+   text-align: end;
+    padding-left:10px;
+    font-family:Bahnschrift Condensed;
+
+}
+.room-conatainer{
+    margin:20px;
+}
+.dining-conatainer{
+    margin:20px;
+}
+.pools-container{
+    margin:20px;
+}
+.rooms-load{
+    height:35px;
+    width:100px;
+    background-color: black;
+    color:white;
+    
+}
+
+.dining-load{
+    height:35px;
+    width:100px;
+    background-color: black;
+    color:white;
+    display:flex;
+    justify-content: center;
+}
+
+.pools-load{
+    height:35px;
+    width:100px;
+    background-color: black;
+    color:white;
+    display:flex;
+   
+  justify-content: flex-end;
+    
+}
+
+.button-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    order:3;
+}
